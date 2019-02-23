@@ -174,7 +174,7 @@ display: inline-block;
 #what-is-npm {
 margin: 0;
 padding: 0;
-height: 600px;
+height: 400px;
 background-image: url(images/forklift.png);
 background-repeat: no-repeat;
 background-size: auto;
@@ -214,4 +214,14 @@ background-size: auto;
 
 .clear {
   clear: both;
+}
+
+
+
+.what-is-box {
+  color: white;
+  width: 50%;
+  position: relative;
+  left: 280px;
+  top: 50px;
 }
