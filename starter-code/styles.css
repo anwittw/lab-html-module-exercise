@@ -1,12 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500');
+
 * {
   padding: 0;
   margin: 0;
 }
 
 body {
+  width: 1200px;
+  font-family: "Poppins";
+  font-weight: 200;
+
+}
+
+
+/* Nav bar styling */
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding: 15px 0 0 0;
+  height: 30px;
+  
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.left-side {
+  float: left;
+  width: 40%;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+  list-style-type: none;
+}
+
+/* Header */
+
+#amazing-things {
+  /* background-color: rgb(32, 101, 136); */
+}
+
+
+#search-bar {
+ background-color: rgb(31, 82, 111);
+}
+
+#search-bar img {
+  height: 30px;
+  padding: 15px;
+}
+
+#search-bar input {
+  width: 70%;
+}
+
+#amazing-content {
+width: 60%;
+margin: 0 auto;
+padding: 20px;
+}
+
+.amazing-content-image {
+background-image: url(images/mountain-climbing-bears.svg);
+}
+
+#powerful-collaboration {
+  background-color: rgb(39, 53, 71);
+  height: 400px;
+}
+
+#powerful-collaboration img {
+  width: 400px;
+}
+
+.collab-container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.collab-content {
+  float: left;
+  width: 40%;
+  margin: 50px 90px 0 0;
+  color: white;
+  font-weight: 100;
+
+}
+
+#what-is-npm {
+margin: 0;
+padding: 0;
+height: 600px;
+background-image: url(images/forklift.png);
+background-repeat: no-repeat;
+background-size: auto;
+}
+
+
+
+
+
+#can-you-make {
   width: 100%;
 }
 
-nav {
-  background-color: darkred;
+#can-you-make h2 {
+  text-align: center;
+  font-weight: 300;
+  margin: 20px 0 20px 0;
+}
+
+#can-you-make hr {
+  width: 60%;
+  margin: 20px auto;
+}
+
+.round-box {
+  margin: 30px 0.5%;
+  border: 0.5px solid lightgray;
+  width: 29%;
+  text-align: center;
+  padding: 1.5%;
+  border-radius: 10px;
+  float: left;
+  height: 250px
+}
+
+.intro {
+  text-align: center;
+  font-weight:200;
+
+}
+
+.clear {
+  clear: both;
 }
