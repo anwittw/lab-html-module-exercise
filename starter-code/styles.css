@@ -6,10 +6,14 @@
 }
 
 body {
-  width: 1200px;
+  width: 100%;
   font-family: "Poppins";
   font-weight: 200;
 
+}
+
+body nav header section {
+  width: 100%;
 }
 
 
@@ -79,24 +83,40 @@ background-image: url(images/mountain-climbing-bears.svg);
 #powerful-collaboration {
   background-color: rgb(39, 53, 71);
   height: 400px;
+  width:100%
 }
 
 #powerful-collaboration img {
-  width: 400px;
+}
+
+#powerful-collaboration a {
+  text-decoration: none;
+  color: white;
+}
+
+#powerful-collaboration ul {
+margin: 35px 0 35px 0;
 }
 
 .collab-container {
-  width: 1000px;
+  width: 90%;
   margin: 0 auto;
 }
 
 .collab-content {
   float: left;
-  width: 40%;
+  width: 42%;
   margin: 50px 90px 0 0;
   color: white;
   font-weight: 100;
 
+}
+
+.button {
+background-color: rgb(203, 56, 55);
+border-radius: 30px;
+padding: 10px;
+display: inline-block;
 }
 
 #what-is-npm {
@@ -107,10 +127,6 @@ background-image: url(images/forklift.png);
 background-repeat: no-repeat;
 background-size: auto;
 }
-
-
-
-
 
 #can-you-make {
   width: 100%;
