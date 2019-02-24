@@ -108,10 +108,11 @@ nav a {
 }
 
 #amazing-content {
-/*background-image: url(images/buildings-and-billboard.png); */
+
+/* FIXME: The Background Image does not load 
+  background-image: url(images/city-scape.svg); */
 background-color:  rgb(95, 82, 111);
 height: 200px;
-width: 100%;
 margin: 0 auto;
 padding: 20px;
 }
@@ -175,7 +176,9 @@ display: inline-block;
 margin: 0;
 padding: 0;
 height: 400px;
-background-image: url(images/forklift.png);
+/* FIXME: The Background Image does not load 
+  background-image: url(images/forklift.svg); */
+background-color:  rgb(95, 82, 111);
 background-repeat: no-repeat;
 background-size: auto;
 }
@@ -215,8 +218,6 @@ background-size: auto;
 .clear {
   clear: both;
 }
-
-
 
 .what-is-box {
   color: white;
